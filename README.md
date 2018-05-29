@@ -34,23 +34,23 @@ Sobre el Curso
 
 Teoría y Recursos
 =================
-Teoría | Recursos
------------- | -------------
-[Clase 1](teoria/dia1.md) | [Clase 1](recursos/dia1.md)
-Clase 2 | Clase 2
-Clase 3 | Clase 3
-Clase 4 | Clase 4
-Clase 5 | Clase 5
-Clase 6 | Clase 6
-Clase 7 | Clase 7
-Clase 8 | Clase 8
-Clase 9 | Clase 9
-Clase 10 | Clase 10
-Clase 11 | Clase 11
-Clase 12 | Clase 12
-Clase 13 | Clase 13
-Clase 14 | Clase 14
-Clase 15 | Clase 15
+Teoría | Recursos | Contenido
+------------ | ------------- | -------------
+[Clase 1](teoria/dia1.md) | [Clase 1](recursos/dia1.md) | Intro al Curso y Git/Github
+[Clase 2](teoria/dia2.md) | [Clase 2](recursos/dia2.md) | Pseudocodigo y bases de algoritmia
+Clase 3 | Clase 3 | Chrome DevTools
+Clase 4 | Clase 4 | JSDocs, Comparadores, Tipos de datos, Modo Estricto, etc...
+Clase 5 | Clase 5 | Condicionales: If...else, Switch y Operador ternario
+Clase 6 | Clase 6 | Bucles: For, While, Do...while, Break & Cotinue
+Clase 7 | Clase 7 | JS con Números y Fechas
+Clase 8 | Clase 8 | JS con Cadenas y Arrays
+Clase 9 | Clase 9 | JS con Objetos y Funciones
+Clase 10 | Clase 10 | Funciones avanzadas y asincronía
+Clase 11 | Clase 11 | BOM, Manipulación del DOM, etc...
+Clase 12 | Clase 12 | Testing Unitario
+Clase 13 | Clase 13 | Eventos, Programación dirigida a eventos, AJAX con APIs...
+Clase 14 | Clase 14 | Trabajo en proyecto personal
+Clase 15 | Clase 15 | Beyond JS
 
 Temario
 =================
