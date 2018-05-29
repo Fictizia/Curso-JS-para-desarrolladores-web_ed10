@@ -8,7 +8,7 @@
 ### Programación JavaScript, Manejo del DOM, Aplicaciones interactivas con AJAX, Vanilla
 
 
-## Clase 1 - Git y Github también...
+## Clase 1 - Intro & Git/Github 
 
 ### Normas y demás
 - Puntualidad
@@ -76,7 +76,7 @@
 - Dev Ops
 - etc...
 
-### Arquitectura de Internet 
+### Arquitectura de Internet
 **Navegación**
 
 ![img](http://www.simplimation.com/uploads/news/images/full/5-how-the-web-works.jpg)
@@ -87,7 +87,7 @@
 
 **CMS (Back-End)**
 
-![img](https://www.inqbation.com/wp-content/uploads/2011/03/how-cms-works-0.jpg) 
+![img](https://www.inqbation.com/wp-content/uploads/2011/03/how-cms-works-0.jpg)
 
 **CDN (Content Delivery Network)**
 
@@ -127,8 +127,8 @@
     - Versión 3 (CSS3) en 2011
 - Ejemplos:
   - [El poder de CSS - CSSZenGarden](http://www.csszengarden.com/)
-  - [Ejemplos CodePen](http://codepen.io/pens/3/) 
-  
+  - [Ejemplos CodePen](http://codepen.io/pens/3/)
+
 
 
 ### JavaScript
@@ -149,11 +149,11 @@
 	- Evaluación en tiempo de ejecución
 - Funcional
 	- Funciones de primera clase
-- Prototípico	
+- Prototípico
 	- Prototipos
 	- Funciones constructoras
 - Entorno de ejecución
-- Funciones varídicas	
+- Funciones varídicas
 - Funciones como métodos
 - Arrays y la definición literal de objetos
 - Expresiones regulares
@@ -217,7 +217,7 @@
 
 
 ### Back-end
-  
+
 - **NODE - JavaScript en el servidor**
  	- [Node.js](https://nodejs.org/en/)
 
@@ -311,9 +311,9 @@
 
 - [Spotifynder](http://tonalidad.es/html5/spotifynder-app-javascript-api-spotify/)
 - [earthquake-pfc2016](http://www.airamdesign.es/)
-  - [Código](https://github.com/Stelair/earthquake-pfc2016) 
+  - [Código](https://github.com/Stelair/earthquake-pfc2016)
 - [AcrossTheUniverse](http://noemimedina.com/projects/AcrossTheUniverse/)
-  - [Código](https://github.com/NoemiMS/Proyecto-Final-Curso-JS-Fictizia-2016) 
+  - [Código](https://github.com/NoemiMS/Proyecto-Final-Curso-JS-Fictizia-2016)
 - [Know your SNPs](https://github.com/OSWeekends/know-your-SNPs)
 
 ### Control de Versiones
@@ -455,7 +455,7 @@ Git cacheará la sesión y no os preguntará el usuario o la password durante 99
 - **[Simple hangouts bot](https://github.com/UlisesGascon/simple-hangouts-bot)**
   - Aislamiento del core para mejorar la portabilidad usando patrones
   - XMPP Protocolo
-  - Soporte de operaciones en terminal 
+  - Soporte de operaciones en terminal
   - Soporte para la instalación como dependencia de NPM
   - Extensión de por API interna
   - Incorporación de servicios externos como Alchemy (Inteligencia Artificial como servicio)
@@ -522,14 +522,14 @@ Git cacheará la sesión y no os preguntará el usuario o la password durante 99
   - No necesita HTTP
 
 - **[Raspi - System Info to Firebase](https://github.com/UlisesGascon/raspberrypi-system-info-data-to-firebase)**
-  - Partiendo de otro repositorio/proyecto. 
+  - Partiendo de otro repositorio/proyecto.
   - Monitorización del sistema
   - Uso de comandos de terminal
   - Gestión de procesos inestables
   - Integración con soluciones No-backend
   - Tiempo Real
   - No necesita HTTP
- 
+
 - **[IT Pulse](https://github.com/UlisesGascon/twitter-sentiments)**
   - Partiendo de otro repositorio/proyecto.
   - APIs de terceros
@@ -565,7 +565,7 @@ Git cacheará la sesión y no os preguntará el usuario o la password durante 99
   - Tiempo Real y sincronía con WebSockets
   - Automatización con Slack y Hangouts
 
- 
+
 - **[Calidad del Aire con Firebase](https://github.com/UlisesGascon/Calidad-del-Aire-con-Firebase)**
   - Manejo de comunicación serial
   - Eventos y asincronía
