@@ -8,7 +8,7 @@
 ### Programación JavaScript, Manejo del DOM, Aplicaciones interactivas con AJAX, Vanilla
 
 
-## Clase 1
+## Clase 1 - Git y Github también...
 
 ### Normas y demás
 - Puntualidad
