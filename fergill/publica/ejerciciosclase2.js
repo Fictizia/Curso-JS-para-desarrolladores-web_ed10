@@ -53,3 +53,55 @@ console.log(porcentajeHombres);
 console.log(porcentajeMujeres);
 
 console.log("*************")
+
+var n1 = 5;
+
+var n2 = 3;
+
+if (n1 > n2) {
+	console.log(n1)
+} else if (n1 < n2) {
+	console.log(n2)
+} else if (n1 == n2) {
+	console.log(n1)
+}
+
+console.log("*************")
+
+var mayor = Math.max(21, 8, 1)
+
+console.log(mayor)
+
+console.log("*************")
+
+var lista = [];
+
+var accion = prompt("Dame tres números");
+
+lista = accion.split(",");
+
+console.log(lista)
+
+for(var i = 0; i < lista.length; i++) {
+
+    lista[i] = parseInt(lista[i]);
+}
+
+if (lista[0] < 0) {
+	var suma = lista[1] + lista[2]
+	console.log(suma)
+} else {
+	var producto = lista[0] * lista[1] * lista[2]
+	console.log(producto)
+}
+
+console.log("*************")
+
+
+
+
+
+
+
+
+
