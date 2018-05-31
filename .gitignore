@@ -60,5 +60,5 @@ typings/
 # next.js build output
 .next
 
-#MAC Files and more...
+# archivos Mac
 .DS_Store
