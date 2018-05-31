@@ -227,14 +227,58 @@
 - Valor de su division
 - Valor de su producto
 ```
-	// Tu solución
+Proceso calculosVarios
+	Escribir "El primer numero:"
+	Leer valor1
+	
+	Escribir "El segundo segundo numero:"
+	Leer valor2
+	
+	// Suma
+	calculo <- valor1+valor2
+	Escribir "El valor de la suma es: ", calculo
+	
+	// Resta
+	calculo <- valor1-valor2
+	Escribir "El valor de la resta es: ", calculo
+	
+	// División
+	calculo <- valor1/valor2
+	Escribir "El valor de la división es: ", calculo
+	
+	// Multiplicación
+	calculo <- valor1*valor2
+	Escribir "El valor de la multiplicación es: ", calculo
+	
+FinProceso
 ```
 
 **2 -** Diseña un programa para calcular el porcentaje de hombres y mujeres en nuestro curso.
 - Trucos:
 	- Calcular porcentajes (segmento*100)/total
 ```
-	// Tu solución
+Proceso porcentajeAlumnos
+	Escribir "El número de mujeres:"
+	Leer cantidadMujeres
+	
+	Escribir "El número de hombres:"
+	Leer cantidadHombres
+	
+	// Suma
+	totalAlumnos <- cantidadHombres + cantidadMujeres
+	Escribir "El total de alumnos es: ", totalAlumnos
+	
+	// Porcentaje mujeres
+	porcentajeMujeres <- (cantidadMujeres*100)/totalAlumnos
+	Escribir "El total de mujeres es: ", cantidadMujeres
+	Escribir "El % de mujeres es: ", porcentajeMujeres
+	
+	// Porcentaje hombres
+	porcentajeHombres <- (cantidadHombres*100)/totalAlumnos
+	Escribir "El total de hombres es: ", cantidadHombres
+	Escribir "El % de hombres es: ", porcentajeHombres
+
+FinProceso
 ```
 
 **3 -** Diseña un programa que lea dos números y los compare. Como resultado esperamos que nos diga cual es mayor... o si son iguales.
