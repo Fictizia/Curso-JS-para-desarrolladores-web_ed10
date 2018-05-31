@@ -1,0 +1,41 @@
+Proceso Ejercicio1
+	numero1<-10
+	numero2<-6
+	resultadosuma<-(numero1+numero2)
+	resultadoresta<-(numero1-numero2)
+	resultadodivide<-(numero1/numero2)
+	resultadomultiplica<-(numero1*numero2)
+	Escribir "El resultado es ", resultadosuma
+	Escribir "El resultado es ", resultadoresta
+	Escribir "El resultado es ", resultadodivide
+	Escribir "El resultado es ", resultadomultiplica
+FinProceso
+
+Proceso Ejercicio2
+	hombres<-1
+	mujeres<-7
+	total<-8
+	resultado1<-(mujeres*100)/total
+	resultado2<-(hombres*100)/total
+	Escribir "El porcentaje de mujeres es ", resultado1
+	Escribir "El porcentaje de hombres es ", resultado2
+	
+FinProceso
+
+Proceso Ejercicio3
+	Leer dato1
+	Leer dato2
+	iguales<-dato1=dato2
+	Si iguales Entonces
+		Escribir "Los numeros son iguales"	
+	Sino
+		Escribir "Los numeros no son iguales"	
+	Fin Si
+	mayorque<-dato1>dato2
+	Si mayorque Entonces
+		Escribir "El número ", dato1, " es mayor"
+	Sino
+		Escribir "El número ", dato2, " es mayor"
+	Fin Si
+	
+FinProceso
