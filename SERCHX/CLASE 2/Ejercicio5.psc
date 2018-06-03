@@ -1,4 +1,4 @@
-Proceso mayor
+Proceso Ejercicio_5
 	Escribir "Dime un nœmero:"
 	Leer valor1
 	Escribir "Dime otro nœmero:"
