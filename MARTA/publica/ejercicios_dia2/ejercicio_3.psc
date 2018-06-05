@@ -3,7 +3,7 @@ Proceso Ejercicio_3
 	dato1<-25
 	dato2<-10
 	
-	Si dato1>=dato2 Entonces
+	Si dato1>dato2 Entonces
 		Escribir "Mi valor mayor es:", dato1
 	Sino 
 		Escribir "Mi valor mayor es:", dato2

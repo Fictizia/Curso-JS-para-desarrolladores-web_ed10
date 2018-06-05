@@ -8,9 +8,11 @@ Proceso Ejercicio_5
 	//Si no multiplicar‡ los tres numeros
 	//Mostrar el resultado final incluyendo una referencia a la operaci—n realizada.
 	Si dato1<0 Entonces
-		Escribir "la suma de los no negativos es:", dato2+dato
+		calculo <- dato2+dato3
+		Escribir "la suma de los no negativos es:", calculo
 	Sino
-		Escribir "multiplico los tres:", dato1*dato2*dato3
+		calculo2 <- dato1*dato2*dato3
+		Escribir "multiplico los tres:", calculo2
 	FinSi
 	
 FinProceso
