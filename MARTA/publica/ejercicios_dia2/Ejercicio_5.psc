@@ -13,7 +13,4 @@ Proceso Ejercicio_5
 		Escribir "multiplico los tres:", dato1*dato2*dato3
 	FinSi
 	
-	
-	
-	
 FinProceso
