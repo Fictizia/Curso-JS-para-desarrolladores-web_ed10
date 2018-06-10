@@ -218,7 +218,20 @@ Algoritmo compararNumeros
 
 FinAlgoritmo
 
+_____________________________________________________________________________________
+7 - Diseña un algoritmo que al introducir un numero por teclado. Que nos diga si es positivo o negativo.
 
+Algoritmo compararNumeros
+	Escribir "Dime un número"
+	Leer ValorIntroducido
+	
+	Si ValorIntroducido<=0 Entonces
+		Escribir "El número introducido es negativo"
+	SiNo
+		Escribir "El número introducido es positivo"
+	Fin Si
+
+FinAlgoritmo
 
 
 
