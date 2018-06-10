@@ -87,6 +87,37 @@ FinAlgoritmo
 _____________________________________________________________________
 4 - Diseña un programa que lea tres números distintos y nos diga cual de ellos es el mayor.
 
+Algoritmo compararNumeros
+	Escribir "Dime el primer número:"
+	Leer Valor1
+	Escribir "Dime el segundo número:"
+	Leer Valor2
+	Escribir "Dime el tercer número:"
+	Leer Valor3
+	//comparar numeros
+	Si (Valor1>Valor2) Y (Valor1>Valor3) Entonces
+		Escribir "El primer numero es el mayor"
+	SiNo
+		Si(Valor2>Valor3) Entonces
+			Escribir "El segundo numero es el mayor"
+		FinSi
+				
+	Fin Si
+	
+	Si (Valor3>Valor1) Y (Valor3>Valor2)
+		Escribir "El tercer valor es el mayor"
+	FinSi
+	
+	// si numeros iguales
+	Si Valor3=Valor1 Y Valor1=Valor2
+		Escribir "Todo los numeros son iguales"
+	FinSi
+		
+FinAlgoritmo
+
+______________________________________________________________________________________
+5 - Diseña un programa que siga el siguiente proceso:
+
 
 
 
