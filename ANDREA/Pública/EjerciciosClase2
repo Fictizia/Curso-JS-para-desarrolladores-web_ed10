@@ -194,7 +194,7 @@ Algoritmo compararNumeros
 FinAlgoritmo
 
 //Prueba3: la vencida! el error estaba, entre otras cosas, en no poner entre "" los valores de texto.
-Algoritmo compararNumeros
+Algoritmo Descuento
 	Escribir "En qué mes estamos¿?"
 	Leer ValorMes
 	Escribir "Qué día de la semana es¿?"
@@ -232,6 +232,80 @@ Algoritmo compararNumeros
 	Fin Si
 
 FinAlgoritmo
+
+__________________________________________________________________________________________
+8 - Diseña un algoritmo que al introducir un numero por teclado. Que nos diga si es par o impar.
+
+Algoritmo ParImpar
+	Escribir "Dime un número"
+	Leer ValorIntroducido
+	
+	Si ValorIntroducido%2=0 Entonces
+		Escribir "El número es par"
+	SiNo
+		Escribir "El número introducido es impar"
+	Fin Si
+
+FinAlgoritmo
+
+___________________________________________________________________________________
+9 - Diseña un algoritmo para identificar a los clientes autorizados a entrar a nuestro sistema.
+
+Características:
+La palabra clave es "Fictizia mola mucho"
+Solo existen tres intentos
+Si se pasan los tres intentos. Se despliega un mensaje informativo.
+
+//Error siempre correcta
+Algoritmo Login
+Escribir "Dime la clave de acceso"
+Leer Clave
+	
+	//Clave corecta
+	
+	Acierto<- Falso
+	Contador<-0
+	
+	//Leer clave
+	Mientras Contador>3 Y Acierto=Falso Hacer
+		Escribir "Dime la clave de nuevo"
+		Leer Clave
+	Fin Mientras
+	Si Clave = "Fictizia mola mucho" Entonces
+		Escribir "Enhorabuena, clave correcta"
+	FinSi
+FinAlgoritmo
+
+Algoritmo Login
+	
+	clave <- "Fictizia mola mucho"
+	acierto <- Falso
+	contador <- 0
+	
+	Mientras contador <3 & acierto = FALSO Hacer
+		Escribir "Dime la clave:"
+		Leer secreto
+		
+		Si secreto = clave Entonces
+			acierto <- Verdadero
+			Escribir secreto, " es la clave que esperaba!"
+		Sino
+			Escribir secreto, " no es correcto."
+		FinSi
+		
+		//metemos el contador en la œltima linea
+		contador <- contador+1
+		
+	FinMientras
+	
+	Si contador >= 3 Entonces
+		Escribir "Lo siento... pero has agotado los 3 intentos."
+	FinSi
+	
+FinAlgoritmo
+
+
+
 
 
 
