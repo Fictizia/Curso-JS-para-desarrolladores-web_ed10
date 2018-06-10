@@ -150,6 +150,30 @@ Se aplica un 25% cuando:
 Estamos en los meses de invierno
 Y no es viernes o fin de semana.
 
+//Prueba 1: Código con resultado OK pero error bucle sin fin
+Algoritmo compararNumeros
+	Escribir "En qué mes estamos"
+	Leer ValorMes
+	Escribir "Qué día de la semana es"
+	Leer ValorDia
+	
+	//resultado con descuento
+	Mientras ValorMes= Enero  O ValorMes=Febrero O ValorMes=Diciembre Y ValorDiaNOViernes Y ValorDiaNOSabado Y ValorDiaNODomingo Hacer
+		Escribir"Enhorabuena se le aplicará un 25% de descuento en su compra"
+	Fin Mientras
+	//Resultado sin descuento
+	Mientras ValorMes<>Diciembre O ValorMes<>Enero O ValorMes<>Febrero Y ValorDia<>Viernes O ValorDiaSabado O ValorDiaDomingo Hacer
+		Escribir "Lo sentimos, no se le aplicará el 25% de descuento en esta compra"
+	
+	Fin Mientras
+
+
+FinAlgoritmo
+//Prueba2:
+
+
+
+
 
 
 
