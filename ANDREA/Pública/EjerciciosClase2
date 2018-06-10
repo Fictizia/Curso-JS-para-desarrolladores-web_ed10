@@ -303,6 +303,21 @@ Algoritmo Login
 	
 FinAlgoritmo
 
+____________________________________________________________________________________________________________
+10 - Diseña un algoritmo que confirme si una fecha es valida y además devuelva la fecha en dos formatos diferentes.
+
+Características:
+El usuario introduce tres números (día, mes, año)
+Validar la fecha. En caso de error incluir un mensaje informativo.
+Después de validar, devolvemos la fecha en formato DD/MM/AAAA
+Convertimos el número del mes, en el nombre del mes real y devolvemos la fecha en el siguiente formato ( DD de MES de AAAA)
+
+
+
+___________________________________________________________________________________________________________
+11 - Diseña un algoritmo introducido un numero y pasarlo a número romanos.
+
+Esperamos que el número sea menor de 50
 
 
 
@@ -313,8 +328,7 @@ FinAlgoritmo
 
 
 
-
-
+APUNTES
 Cuando queremos saber si es negativo o no hay que compararlo con 0
 
 Proceso ejercicio 25% de descuento
