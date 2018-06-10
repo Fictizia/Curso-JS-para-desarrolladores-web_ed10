@@ -1,6 +1,7 @@
 Ejercicios CLASE 2
 
-1 ________________________________
+________________________________________________________
+1. Diseña un programa que lea dos números y realice los siguientes cálculos: sumar, restar, multiplicar y dividir.
 
 Proceso Calcular
 	Escribir "el primer numero:"
@@ -23,7 +24,8 @@ Proceso Calcular
 
 FinProceso
 
-2 _________________________________________
+________________________________________________________
+2 - Diseña un programa para calcular el porcentaje de hombres y mujeres en nuestro curso.
 
 Proceso CalcularPorcentaje
 	Escribir "Dime el numero de hombres:"
@@ -40,7 +42,8 @@ Proceso CalcularPorcentaje
 
 FinProceso
 
-3_____________________________________________
+_________________________________________________________
+3 - Diseña un programa que lea dos números y los compare. Como resultado esperamos que nos diga cual es mayor... o si son iguales.
 
 //Prueba 1 con error 
 Algoritmo CompararNumeros
@@ -81,7 +84,20 @@ Algoritmo comparar_numeros
 	
 FinAlgoritmo
 
-5 ___________________________________________________________
+_____________________________________________________________________
+4 - Diseña un programa que lea tres números distintos y nos diga cual de ellos es el mayor.
+
+
+
+
+
+
+
+
+
+
+
+
 
 Cuando queremos saber si es negativo o no hay que compararlo con 0
 
