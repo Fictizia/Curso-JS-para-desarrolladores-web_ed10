@@ -144,7 +144,11 @@ Algoritmo compararNumeros
 FinAlgoritmo
 
 _______________________________________________________________________________________
+6 - Diseña un algoritmo que aplique al precio de un producto un descuento cuando se den las siguientes caracteristicas.
 
+Se aplica un 25% cuando:
+Estamos en los meses de invierno
+Y no es viernes o fin de semana.
 
 
 
