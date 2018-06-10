@@ -169,9 +169,54 @@ Algoritmo compararNumeros
 
 
 FinAlgoritmo
-//Prueba2:
 
+//Prueba2: error siempre SIN descuento
+Algoritmo compararNumeros
+	Escribir "En qué mes estamos¿?"
+	Leer ValorMes
+	Escribir "Qué día de la semana es¿?"
+	Leer ValorDia
+	Escribir "Cuál es el importe de la compra¿?"
+	Leer ValorCompra
+	
+	//Calcular descuento 25%
+	Calculo<-(ValorCompra*25)/100
+	
+	//Comprobar si corresponde descuento
+	Si ValorMes=Diciemnre O ValorMes=Enero O ValorMes=Febrero Y ValorDiaNOViernes O ValorDiaNOSabado O ValorDiaNODomingo Entonces
+		Escribir "¡Enhorabuena! Su compra tiene un 25% de descuento y se queda en: ",calculo
+			
+	Fin Si
+	Si ValorMes<>Diciembre O ValorMes<>Enero O ValorMes<>Febrero Y ValorDia<>Viernes O ValorDia<>Sabado O ValorDia<>Domingo Entonces
+		Escribir "Lo sentimos, su compra no tiene descuento, se queda en: ", ValorCompra
+	FinSi
+	
+FinAlgoritmo
 
+//Prueba3: la vencida! el error estaba, entre otras cosas, en no poner entre "" los valores de texto.
+Algoritmo compararNumeros
+	Escribir "En qué mes estamos¿?"
+	Leer ValorMes
+	Escribir "Qué día de la semana es¿?"
+	Leer ValorDia
+	Escribir "Cuál es el importe de la compra¿?"
+	Leer ValorCompra
+	
+	//Calcular descuento 25%
+	Calculo<-(ValorCompra*25)/100
+	
+	//Comprobar si corresponde descuento
+	Si ValorMes="Diciemnbre" O ValorMes="Enero" O ValorMes="Febrero"  Entonces
+		Si ValorDia<>"Viernes" O ValorDia<>"Sabado" O ValorDia<>"Domingo" Entonces
+			Escribir "¡Enhorabuena! Su compra tiene un 25% de descuento y sólo debe pagar: ",calculo	
+		FinSi
+		
+		SiNo
+			Escribir "Lo sentimos, no se aplica descuento en su compra, deberá pagar: ", ValorCompra
+	FinSi
+		
+
+FinAlgoritmo
 
 
 
