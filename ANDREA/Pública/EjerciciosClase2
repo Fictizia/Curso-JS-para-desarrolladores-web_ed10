@@ -117,6 +117,33 @@ FinAlgoritmo
 
 ______________________________________________________________________________________
 5 - Diseña un programa que siga el siguiente proceso:
+Pedir por teclado tres números.
+Si el primero es negativo, debe sumar los otros dos
+Si no multiplicará los tres numeros
+Mostrar el resultado final incluyendo una referencia a la operación realizada.
+
+Algoritmo compararNumeros
+	Escribir "Dime el primer número:"
+	Leer Valor1
+	Escribir "Dime el segundo número:"
+	Leer Valor2
+	Escribir "Dime el tercer número:"
+	Leer Valor3
+	//comparar numeros
+	Si (Valor1<0) Entonces
+		calculo<-Valor2+Valor3 
+		Escribir "El resultado es las suma de Numero2+Numero3 = ", calculo
+	SiNo
+		calculo<- Valor1*Valor2*Valor3
+		Escribir "El resultadoes la multiplicacion de los 3 numeros = ", calculo
+				
+	Fin Si
+	
+	
+	
+FinAlgoritmo
+
+_______________________________________________________________________________________
 
 
 
