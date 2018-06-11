@@ -97,11 +97,56 @@ if (lista[0] < 0) {
 
 console.log("*************")
 
+var precio = 50;
 
+var resultado;
 
+var mes = prompt("Dime un mes");
 
+var dia = prompt("Dime el día de la semana");
 
+if ((mes != "diciembre" || mes != "enero" || mes != "febrero") &&
+   (dia == "viernes" || dia == "sábado" || dia == "domingo")) {
+	resultado = precio;
+  	console.log(resultado);
+} else {
+	resultado = precio - (precio * 0.25);
+  	console.log(resultado);
+}
 
+console.log("************************")
 
+var numero = prompt("Dime un número");
 
+var respuesta = (numero > 0) ? "Es positivo" : "Es negativo";
 
+console.log(respuesta);
+
+console.log("************************")
+
+var numero = prompt("Dime un número");
+
+var respuesta = (numero % 2 == 0) ? "Es par" : "Es impar";
+
+console.log(respuesta);
+
+console.log("************************")
+
+var passCorrecta = "Fictizia mola mucho";
+
+for(i=1; i<=4; i++){
+
+		var pass = prompt("Escribe tu contraseña");
+
+		if (pass == passCorrecta){
+			console.log("Bienvenido");
+			break;
+			} else if (i < 4 && pass != passCorrecta) {
+				console.log(" Intento "+i+". Máximo de 3 intentos.");
+				continue;
+			} else if (i == 4) {
+				console.log("Has agotado tus intentos de login.");
+			}
+}
+
+console.log("************************")
