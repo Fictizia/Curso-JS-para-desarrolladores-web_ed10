@@ -39,8 +39,8 @@ Teoría | Recursos | Contenido
 [Clase 1](teoria/dia1.md) | [Clase 1](recursos/dia1.md) | Intro al Curso y Git/Github
 [Clase 2](teoria/dia2.md) | [Clase 2](recursos/dia2.md) | Pseudocodigo y bases de algoritmia
 [Clase 3](teoria/dia3.md) | [Clase 3](recursos/dia3.md) | Chrome DevTools
-[Clase 4](teoria/dia4.md) | [Clase 4](recursos/dia4.md)| JSDocs, Comparadores, Tipos de datos, Modo Estricto, etc...
-Clase 5 | Clase 5 | Condicionales: If...else, Switch y Operador ternario
+[Clase 4](teoria/dia4.md) | [Clase 4](recursos/dia4.md) | JSDocs, Comparadores, Tipos de datos, Modo Estricto, etc...
+[Clase 5](teoria/dia5.md) | [Clase 5](recursos/dia5.md) | Condicionales: If...else, Switch y Operador ternario
 Clase 6 | Clase 6 | Bucles: For, While, Do...while, Break & Cotinue
 Clase 7 | Clase 7 | JS con Números y Fechas
 Clase 8 | Clase 8 | JS con Cadenas y Arrays
