@@ -378,6 +378,17 @@ Mientras contador <3 & acierto = FALSO hacer
 
 
 
+- valido: tengamos una cadena de texto con contenido -> "ulises"
+- No valido: "cancelar" o cadena de texto vacia.
+
+var respuesta = prompt ("como te llamas...");
+//if (respuesta) { -> así  mejoramos las soluciones y cubro todos los casos.
+if (respuesta===true) {
+console.log ("es valido...");
+} else{
+console.log ("no es valido...");
+}
 
 
+if (respuesta) ... para
 
