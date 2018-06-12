@@ -1,0 +1,41 @@
+Ejercicios CLASE 5
+
+________________________________________________________
+1 - Diseña un algoritmo que lea dos números y los compare. Como resultado esperamos que nos diga cual es mayor... o si son iguales.
+Algoritmo comparar_numeros
+	Escribir "Dime el primer número:"
+	Leer Valor1
+	Escribir "Dimer el segundo número:"
+	Leer Valor2
+	//comparacion numeros
+	Si Valor1 > Valor2
+		Escribir "El primer numero es mayor"
+	FinSi
+	Si Valor2 > Valor1
+		Escribir "El segundo numero es mayor"
+	FinSi
+	Si Valor1 = Valor2
+		Escribir "Los dos numeros son iguales"
+	FinSi
+	
+FinAlgoritmo
+
+Usando if...else
+	
+var valor1 = 6;
+var valor2 = 8;
+
+if (valor1>valor2){
+		console.log ("El primer número es el mayor");
+} else if (valor2>valor1) {
+		console.log ("El psegundo número es el mayor");
+} else {
+		console.log ("Los dos numeros son iguales");
+}
+
+
+
+Usando Operador Ternario (?:)
+	// Tu solución
+Usando Switch
+	// Tu solución
