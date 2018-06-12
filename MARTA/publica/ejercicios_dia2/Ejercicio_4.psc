@@ -1,5 +1,5 @@
 Proceso Ejercicio_4
-	escribir "El primer nœmero:"
+	Escribir "El primer nœmero:"
 	Lee valor 1
 	
 	Escribir "El segundo valor:"
