@@ -21,6 +21,16 @@ Algoritmo comparar_numeros
 FinAlgoritmo
 
 Usando if...else
+
+function compararNumeros (valor1, valor2){
+if (valor1>valor2){
+		console.log ("El primer número es el mayor");
+} else if (valor2>valor1) {
+		console.log ("El psegundo número es el mayor");
+} else {
+		console.log ("Los dos numeros son iguales");
+}
+}
 	
 var valor1 = 6;
 var valor2 = 8;
@@ -36,6 +46,8 @@ if (valor1>valor2){
 
 
 Usando Operador Ternario (?:)
-	// Tu solución
+
+
+
 Usando Switch
 	// Tu solución
