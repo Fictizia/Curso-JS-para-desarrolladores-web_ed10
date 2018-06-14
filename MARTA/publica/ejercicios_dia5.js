@@ -79,6 +79,7 @@ Caracteristicas de un año bisiesto:
 
 */
 
+/*marta:*/
 var anio = prompt("Dime un año");
 
 if ((anio %4) || (anio %100) && (%100 < anio < %400)) {
@@ -87,11 +88,13 @@ if ((anio %4) || (anio %100) && (%100 < anio < %400)) {
   console.log ("No es año bisiesto");
 }
 
-//
-var valor1 = pedirNumero();
-var valor2 = pedirNumero();
-
-function pedirNumero (){
-  return parseFloat(prompt("dame un numero"))
-
+/*ulises:*/
+function esBisitesto (year) {
+  if (year % 4 === 0 && year % 100 !== 0){
+    console.log ("Amigo, el año " +year+ " es bisitesto!");
+  }else if (year % 400 === 0 && year % 100 === 0){
+    console.log ("Amigo, el año " +year+ " es bisiesto!");
+  }else {
+    console.log ("Amigo, el año " +year+ "No es bisiesto!");
+  }
 }

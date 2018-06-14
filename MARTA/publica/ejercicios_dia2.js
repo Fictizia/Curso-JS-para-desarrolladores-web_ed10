@@ -105,8 +105,10 @@ la fecha en el siguiente formato ( DD de MES de AAAA)*/
 var dia = prompt("Dime numero de día");
 var mes = prompt("Dime un mes");
 var anio = prompt("Dime un año");
-var fecha = {dia: dia, mes: mes, anio: anio};
+var mes = [{dia: dia, mes: mes, anio: anio};]
 
+var fecha = {dia: dia, mes: mes, anio: anio};
+var fecha.mesnum
 if (true) {
   if ((fecha.dia <= 31 )&& (fecha.dia!='')) {
     console.log ( "Dia correcto: " , fecha.dia);
@@ -120,6 +122,7 @@ if (true) {
   || fecha.mes == "junio" || fecha.mes == "julio" || fecha.mes == "agosto" || fecha.mes == "septiembre" || fecha.mes == "octubre"
   || fecha.mes == "noviembre" || fecha.mes == "diciembre") {
     console.log ( "Mes correcto: " , mes);
+
      //convertimos los meses a numeros
     switch (fecha.mes ) {
       case "enero":
@@ -159,6 +162,7 @@ if (true) {
         console.log("12");
         break;
     default:
+
         console.log("esto no funciona " + fecha.mes  + ".");
     }
 
@@ -176,5 +180,60 @@ if (true) {
     console.log ( "Año no correcto: " , fecha.anio)
   }
 
-  console.log ( "Fecha: " , fecha.dia + '/' + fecha.mes + '/' + fecha.anio)
+  console.log ( "Fecha: " , fecha.dia + '/' + fecha.mesnum + '/' + fecha.anio)
 }
+
+
+// con un array
+
+function damefecha (){
+  var dia = prompt("Dime numero de día");
+  var mes = prompt("Dime un mes");
+  var anio = prompt("Dime un año");
+  var fecha = {dia: dia, mes: mesnum, anio: anio};
+
+
+
+  if(true) {
+      if ((fecha.dia <= 31 )&& (fecha.dia!='')) {
+        console.log ( "Dia correcto: " , fecha.dia);
+      } else {
+        alert ("dia no correcto");
+        console.log ( "Dia no correcto: " , fecha.dia);
+      }
+
+
+      if (fecha.mes == "enero" || fecha.mes == "febrero" || fecha.mes == "marzo" || fecha.mes == "abril" || fecha.mes == "mayo"
+          || fecha.mes == "junio" || fecha.mes == "julio" || fecha.mes == "agosto" || fecha.mes == "septiembre" || fecha.mes == "octubre"
+          || fecha.mes == "noviembre" || fecha.mes == "diciembre") {
+
+          console.log ( "Mes correcto: " , fecha.mes);
+
+          var messes = [undefined, "enero", "febrero"..]
+          var mesnumero = messes.indexOf("sombrero") // -1
+
+          var mesnum = [{mes:"enero", num:1},{mes:"febrero", num:2},{mes:"marzo", num:3},
+                        {mes:"abril", num:4},{mes:"mayo", num:5},{mes:"junio", num:6},
+                        {mes:"julio", num:7},{mes:"agosto", num:8},{mes:"septiembre", num:9},
+                        {mes:"octubre", num:10},{mes:"noviembre", num:11},{mes:"diciembre", num:12},];
+
+          var mes = mesnum;
+
+      } else {
+        alert ("Mes no correcto");
+        console.log ( "Mes no correcto: " , fecha.mes);
+      }
+
+
+      if ((fecha.anio <= 2018 )&& (fecha.anio!='')) {
+        console.log ( "Año correcto: " , fecha.anio);
+      } else {
+        alert ("año no correcto");
+        console.log ( "Año no correcto: " , fecha.anio);
+      }
+
+      console.log ( "Fecha: " , fecha.dia + '/' + fecha.mes + '/' + fecha.anio);
+    }
+
+
+  }
