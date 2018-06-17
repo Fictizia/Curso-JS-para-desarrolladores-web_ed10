@@ -407,7 +407,10 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *Operador Ternario (?:)*
 ```javascript
-	// Tu solución
+	function esPar (numero) {
+		(numero %2 === 0) ? console.info(numero, " es par")
+			: console.info(numero, " es impar");
+	}
 ```
 
 - Usando *Switch*
