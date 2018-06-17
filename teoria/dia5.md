@@ -213,7 +213,17 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *if...else*
 ```javascript
-	// Tu solución
+	function compararVariosNumeros (valor1, valor2, valor3) {
+		if (valor1 > valor2 && valor1 > valor3) {
+			console.info(valor1, "es mayor.")
+		} else {
+			if(valor2 > valor3){
+				console.info(valor2, "es mayor.")
+			} else {
+				console.info(valor3, "es mayor.")
+			}
+		};
+	}
 ```
 
 - Usando *Operador Ternario (?:)*
