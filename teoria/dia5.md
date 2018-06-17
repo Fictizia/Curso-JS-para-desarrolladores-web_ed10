@@ -370,7 +370,10 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *Operador Ternario (?:)*
 ```javascript
-	// Tu solución
+	function esPositivo (numero) {
+		(numero < 0) ? console.info(numero, " es negativo")
+			: console.info(numero, " es positivo");
+	}
 ```
 
 - Usando *Switch*
