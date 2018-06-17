@@ -378,7 +378,17 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *Switch*
 ```javascript
-	// Tu solución
+	function esPositivo (numero) {
+
+		switch(true){
+			case (numero < 0):
+				console.info(numero, " es negativo");
+				break;
+			default:
+				console.info(numero, " es positivo");
+		}
+
+	}
 ```
 
 **6 -** Diseña un algoritmo que al introducir un número nos diga si es par o impar.
