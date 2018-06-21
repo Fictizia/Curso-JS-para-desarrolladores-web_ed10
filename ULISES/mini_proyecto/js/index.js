@@ -14,7 +14,17 @@ document.getElementById("nombreArtista").addEventListener("keyup", function(even
 		var nombrePelicula = document.getElementById("nombreArtista").value.trim();
 		console.log("Texto actual:", nombrePelicula)
 		// Llamo a la Api con el dato de la pelicula
-		AjaxHandler("http://www.omdbapi.com/?t="+nombrePelicula+"&apikey="+apikey)
+		AjaxHandler("http://www.omdbapi.com/?t="+nombrePelicula+"&apikey="+apikey, function(pelicula){
+      if(!pelicula.Error){
+        if(pelicula.Poster !== "N/A"){
+          document.getElementById("row-contenido").innerHTML = "<img src='"+pelicula.Poster+"'>"
+        } else {
+          document.getElementById("row-contenido").innerHTML = "<h1>"+pelicula.Title+"</h1>"
+        }
+      } else {
+          document.getElementById("row-contenido").innerHTML = "<h1>No disponible aún!</h1>"
+      }
+    })
 	}
 })
 
@@ -22,7 +32,7 @@ document.getElementById("nombreArtista").addEventListener("keyup", function(even
 /*
 	---- AJAX! ----
 */
-function AjaxHandler (url) {
+function AjaxHandler (url, cb) {
   var xmlHttp = new XMLHttpRequest();
 
   xmlHttp.onreadystatechange = function() {
@@ -33,6 +43,7 @@ function AjaxHandler (url) {
       	var datosCrudos = xmlHttp.responseText
         var datos = JSON.parse(datosCrudos);
         console.log("Datos:", datos)
+        cb(datos);
       } else if (xmlHttp.status >= 400 && xmlHttp.status <= 600) {
       	console.log("ERROR con AJAX!");
       }
