@@ -13,8 +13,8 @@ document.getElementById("nombreArtista").addEventListener("keyup", function(even
 	if(event.keyCode === 13){
 		var nombrePelicula = document.getElementById("nombreArtista").value.trim();
 		console.log("Texto actual:", nombrePelicula)
-		// Llamo a la Api
-		AjaxHandler("http://www.omdbapi.com/?t=The+hackers!&apikey="+apikey)
+		// Llamo a la Api con el dato de la pelicula
+		AjaxHandler("http://www.omdbapi.com/?t="+nombrePelicula+"&apikey="+apikey)
 	}
 })
 
