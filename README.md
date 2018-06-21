@@ -43,7 +43,7 @@ Teoría | Recursos | Contenido
 [Clase 5](teoria/dia5.md) | [Clase 5](recursos/dia5.md) | Condicionales: If...else, Switch y Operador ternario
 [Clase 6](teoria/dia6.md) | [Clase 6](recursos/dia6.md) | Bucles: For, While, Do...while, Break & Cotinue
 [Clase 7](teoria/dia7.md) | [Clase 7](recursos/dia7.md) | JS con Números y Fechas
-Clase 8 | Clase 8 | JS con Cadenas y Arrays
+[Clase 8](teoria/dia8.md) | [Clase 8](recursos/dia8.md) | JS con Cadenas y Arrays
 Clase 9 | Clase 9 | JS con Objetos y Funciones
 Clase 10 | Clase 10 | Funciones avanzadas y asincronía
 Clase 11 | Clase 11 | BOM, Manipulación del DOM, etc...
