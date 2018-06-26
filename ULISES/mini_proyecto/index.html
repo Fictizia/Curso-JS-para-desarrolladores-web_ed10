@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>IMDB & AJAX</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+  <!-- ALERT EN CASO DE ERROR -->
+  <div class="alert alert-dismissible alert-danger" id="error-ajax">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    <strong>Oh Error!</strong> Error al cargar los datos de <a href="http://omdbapi.com/" target="_blank" class="alert-link">OMBD - </a>
+  </div>
+
+
+  <!-- EL BUSCADOR-->
+  <div class="row" id="row-buscador">
+    <div class="col-md-12" id="col-buscador">
+      <h3 class="text-center">Descubre más sobre el cine</h3>
+      <div class="input-group col-centered" id="campo-buscador">
+        <input type="text" id="nombreArtista" class="form-control" placeholder="Tu película favorita...">
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id="row-contenido">
+  	<!-- AQUI VA LA PELICULA -->
+  </div>
+
+  <!-- ANIMACION DE CARGA-->
+  <div class="row" id="cargando">
+    <div class="col-md-12 col-centered">
+      <img id="img-cargando" src="http://ilcmemphis.org/wp-content/uploads/2016/09/Stick-figure-flipping.gif">
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">
+      <a href="http://www.omdbapi.com/" target="_blank"><img id="owm-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg"></a>
+    </p>
+  </div>
+</footer>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
