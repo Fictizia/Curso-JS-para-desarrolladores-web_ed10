@@ -28,3 +28,29 @@ for (var i = 0; i < mitexto.length; i++) {
   }
 }
 console.log ("mis coincidencias seran: ", coincidencias);
+
+
+/* Ejercicios 1 de Arrays -
+Junta estos tres Arrays ["Oscar", ...], [9897667, ...], [false, ...] de tal forma que construyan un único Array anidado [["Oscar", 9897667, false], [etc...]]
+*/
+
+var nombre = ["Oscar","Gema","Pepe",]
+var numero = ["9897667","25987","125478",]
+var boleanss = ["true","false","true",]
+
+var nuevoArray = nombre.concat (numero,boleanss)
+console.log(nuevoArray);
+
+//
+var nombre = ["Oscar","Gema","Pepe",]
+var numero = ["9897667","25987","125478",]
+var boleanss = ["true","false","true",]
+
+var juntoArrays = [nombre, numero, boleanss]
+console.log(juntoArrays);
+
+function testArreglos () {
+    console.log(juntoArrays[0][0][0]);
+    console.log(juntoArrays[1][1][1]);
+    console.log(juntoArrays[2][2][2]);
+};
