@@ -49,7 +49,7 @@ Teoría | Recursos | Contenido
 [Clase 11](teoria/dia11.md) | [Clase 11](recursos/dia11.md) | Eventos, Programación dirigida a eventos
 [Clase 12](teoria/dia12.md) | [Clase 12](recursos/dia12.md) | Funciones avanzadas y asincronía
 [Clase 13](teoria/dia13.md) | [Clase 13](recursos/dia13.md) | AJAX con APIs...
-Clase 14 | Clase 14 | Trabajo en proyecto personal
+[Clase 14](teoria/dia14.md) | [Clase 14](recursos/dia14.md) | Trabajo en proyecto personal
 Clase 15 | Clase 15 | Beyond JS
 
 Temario
