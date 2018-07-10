@@ -46,9 +46,9 @@ Teoría | Recursos | Contenido
 [Clase 8](teoria/dia8.md) | Clase 8 | Spoiler: Hagamos un buscador de peliculas!
 [Clase 9](teoria/dia9.md) | [Clase 9](recursos/dia9.md) | JS con Cadenas, Arrays, Objetos y Funciones
 [Clase 10](teoria/dia10.md) | [Clase 10](recursos/dia10.md) | BOM, Manipulación del DOM, etc...
-[Clase 11](teoria/dia11.md) | [Clase 11](recursos/dia11.md) | Eventos, Programación dirigida a eventos, AJAX con APIs...
-Clase 12 | Clase 12 | Funciones avanzadas y asincronía
-Clase 13 | Clase 13 | Testing Unitario
+[Clase 11](teoria/dia11.md) | [Clase 11](recursos/dia11.md) | Eventos, Programación dirigida a eventos
+[Clase 12](teoria/dia12.md) | [Clase 12](recursos/dia12.md) | Funciones avanzadas y asincronía
+Clase 13 | Clase 13 | AJAX con APIs...
 Clase 14 | Clase 14 | Trabajo en proyecto personal
 Clase 15 | Clase 15 | Beyond JS
 
